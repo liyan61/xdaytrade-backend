@@ -8,10 +8,10 @@
 		<version>2.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>qin.spring</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.cirko</groupId>
+	<artifactId>xdaytrade</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>xdaytrade</name>
 	<description>基于 Spring Boot 的服务端代码初始化模板。</description>
 
 	<properties>
