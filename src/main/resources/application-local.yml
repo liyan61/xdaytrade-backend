@@ -1,0 +1,10 @@
+# 使用本地数据库 + 本地 redis 进行开发调试
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/${schema}
+    username: root
+    password: ${dpwd}
+  redis:
+    host: localhost
+    port: 6379
