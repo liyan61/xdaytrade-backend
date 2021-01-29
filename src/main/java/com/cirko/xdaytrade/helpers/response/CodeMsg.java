@@ -21,6 +21,12 @@ public class CodeMsg {
     public static CodeMsg PASSWORD_ERROR = new CodeMsg(500215, "密码错误");
     public static CodeMsg PRIMARY_ERROR = new CodeMsg(500216, "主键冲突");
 
+    //注册模块
+    public static CodeMsg SUCH_USER = new CodeMsg(500217, "用户名已存在");
+    public static CodeMsg MOBILE_EXIST = new CodeMsg(500218, "手机号已注册");
+    public static CodeMsg EMAIL_ERROR = new CodeMsg(500219, "邮箱格式错误");
+    public static CodeMsg EMAIL_EXIST = new CodeMsg(500225, "邮箱已注册");
+
     //商品模块 5003XX
 
     //订单模块 5004XX

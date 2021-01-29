@@ -52,6 +52,18 @@ public class RequestLoginAndRegisterBean {
      */
     String mode;
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    String email;
+
+
+
     public String getUsername() {
         return username;
     }
