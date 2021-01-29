@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev #默认为开发环境
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/templates/
+  jpa:
+    database: MySQL
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+jwt:
+  secret: 38129738ewnqjh293810jkn2399jnjlpqlpaznxj3
+  expiration: 6000
+
+server:
+  port: 8080

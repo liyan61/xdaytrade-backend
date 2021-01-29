@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://sh-cynosdbmysql-grp-lecehv4q.sql.tencentcdb.com:28031/xdaytrade
+    username: dev
+    password: Xday2021!
+  redis:
+    host: localhost
+    port: 6379
